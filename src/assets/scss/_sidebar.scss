@@ -1,0 +1,42 @@
+
+/* Sidebar */
+
+.brand {
+	span {
+		padding: .5rem;
+	}
+
+	button {
+		font-size: 3rem;
+		background: none;
+		border: none;
+		color: #fff;
+		padding: .5rem;
+		cursor: pointer;
+	}
+}
+
+.sidebar {
+	position: fixed;
+	transition: all .5se;
+	transform: translateX(-31.5rem);
+	width: 30rem;
+	background-color: #f0f0f0;
+	height: 100%;
+	padding: .75rem;
+
+	&.open {
+		transform: translateX(0);
+	}
+
+	.close-button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: .75rem;
+		border: none;
+		width: 3rem;
+		height: 3rem;
+		font-size: 2rem;
+	}
+}

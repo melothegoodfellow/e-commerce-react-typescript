@@ -1,0 +1,115 @@
+{
+	"products": [
+		{
+			"_id": "1",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "2",
+			"name": "Fit Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice fit shirt",
+			"status": "In Stock"
+		},{
+			"_id": "3",
+			"name": "Designer Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice designer shirt",
+			"status": "In Stock"
+		},{
+			"_id": "4",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "5",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "6",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "7",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "8",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "9",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "10",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		},{
+			"_id": "11",
+			"name": "Slim Shirt",
+			"image": "d1.jpg",
+			"brand": "Arrow",
+			"price": "60",
+			"rating": 4.5,
+			"noOfReviews": 10,
+			"description": "Very nice slim shirt",
+			"status": "In Stock"
+		}
+	]
+}
