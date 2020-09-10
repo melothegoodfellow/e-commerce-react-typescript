@@ -11,7 +11,7 @@ import CartPage from "./pages/cart.page";
 import LoginPage from "./pages/login.page";
 import RegisterPage from "./pages/register.page";
 
-import { CartProduct } from "./lib/types";
+import { CartProduct } from "./library/types";
 
 function App() {
   const cartDetails = useSelector((state: any) => state.cartDetails);
@@ -59,9 +59,9 @@ function App() {
               <li>
                 {
                   (user) ? 
-                  <div>
+                  <Link to="/login">
                     Hi, { ' '+user.name }
-                  </div> :
+                  </Link> :
                   <Link to="/login">
                     <LoginOutlined />
                   </Link>

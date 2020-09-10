@@ -1,5 +1,5 @@
 import { BASE_URL } from "../../constants/server.constants";
-import { Product } from "../../lib/types";
+import { Product } from "../../library/types";
 import {
 	CART_ADD_ITEM,
 	CART_REMOVE_ITEM

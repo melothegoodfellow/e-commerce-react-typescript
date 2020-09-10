@@ -1,4 +1,4 @@
-import { Action, Product } from "../../lib/types";
+import { Action, Product } from "../../library/types";
 import { 
 	PRODUCT_LIST_REQUEST, 
 	PRODUCT_LIST_SUCCESS, 
@@ -13,7 +13,7 @@ function productListReducer(state = { products: [] }, action: Action<Product[]>)
 		case PRODUCT_LIST_REQUEST:
 			return { loading: true };
 		case PRODUCT_LIST_SUCCESS:
-			return { loading: false, products: action.payload };
+			return { loading: false, products: action.payload!.data.products };
 		case PRODUCT_LIST_FAIL:
 			return { loading: false, error: action.error };
 		default:

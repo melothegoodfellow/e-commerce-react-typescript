@@ -1,5 +1,5 @@
-import { Action, Product, CartProduct, State } from "../../lib/types";
-import { setLocalStorageData } from "../../lib/local-storage.lib";
+import { Action, Product, CartProduct, State } from "../../library/types";
+import { setLocalStorageData } from "../../library/local-storage.lib";
 
 function cartDetailsReducer(state: State = { 
 		cartProducts: [] 

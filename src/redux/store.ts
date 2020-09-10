@@ -4,9 +4,10 @@ import thunk from "redux-thunk";
 import { productListReducer, productDetailsReducer } from "./reducers/product.reducers";
 import { cartDetailsReducer } from "./reducers/cart.reducers";
 import { userLoginReducer } from "./reducers/authentication.reducers";
-import { getLocalStorageData } from "../lib/local-storage.lib";
+import { getLocalStorageData } from "../library/local-storage.lib";
 
 const initialState: any = {
+	products: [],
 	cartProducts: getLocalStorageData("cart") || [],
 	user: getLocalStorageData("user") || {}
 };

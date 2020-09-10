@@ -1,5 +1,5 @@
-import { Action } from "../../lib/types";
-import { setLocalStorageData } from "../../lib/local-storage.lib";
+import { Action } from "../../library/types";
+import { setLocalStorageData } from "../../library/local-storage.lib";
 import { 
 	USER_LOGIN_REQUEST, 
 	USER_LOGIN_SUCCESS, 
@@ -9,13 +9,13 @@ import {
 	USER_REGISTER_FAIL
 } from "../../constants/authentication.constants";
 
-function userLoginReducer(state = { }, action: Action<[]>) {
+function userLoginReducer(state = { }, action: Action<any>) {
 	switch(action.type) {
 		case USER_LOGIN_REQUEST:
 			return { loading: true };
 		case USER_LOGIN_SUCCESS:{
-			setLocalStorageData("user", action.payload);
-			return { loading: false, user: action.payload };
+			setLocalStorageData("user", action.payload!.data[0]);
+			return { loading: false, user: action.payload!.data[0] };
 		}
 		case USER_LOGIN_FAIL:
 			return { loading: false, error: action.error };

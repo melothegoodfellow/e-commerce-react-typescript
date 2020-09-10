@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
-import { Product, CartProduct } from "../lib/types";
+import { Product, CartProduct } from "../library/types";
 import { IMAGES_PATH } from "../constants/client.constants";
 import { detailsProduct } from "../redux/actions/product.actions";
 import { addToCart, removeFromCart } from "../redux/actions/cart.actions";

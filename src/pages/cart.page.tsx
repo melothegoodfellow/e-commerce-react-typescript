@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { CartProduct } from "../lib/types";
+import { CartProduct } from "../library/types";
 
 //constants
 import { IMAGES_PATH } from "../constants/client.constants";

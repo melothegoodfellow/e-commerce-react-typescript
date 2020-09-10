@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import { IMAGES_PATH } from "../constants/client.constants";
-import { Product } from "../lib/types";
+import { Product } from "../library/types";
 import { listProducts } from "../redux/actions/product.actions";
-
-// import data from "../mocks/data.json";
 
 function HomePage(){
 
@@ -25,7 +23,11 @@ function HomePage(){
     		<div className="home">
           <ul className="products">
             {
-              products.map((product: Product, index: number) => 
+              products && products.length === 0 ? 
+              <div>
+                No products
+              </div> :
+              products && products.map((product: Product, index: number) => 
                 <li className="product" key={product._id}>
                   <section>
                     <Link to={"/products/"+product._id}>

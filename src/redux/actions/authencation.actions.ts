@@ -1,7 +1,7 @@
 import axios from "axios";
 
 import { BASE_URL } from "../../constants/server.constants";
-import { Product } from "../../lib/types";
+import { Product } from "../../library/types";
 import {
 	USER_LOGIN_REQUEST,
 	USER_LOGIN_SUCCESS,

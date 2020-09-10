@@ -23,7 +23,7 @@ export interface CartProduct {
 
 export interface Action<T> {
 	type: string,
-	payload?: T,
+	payload?: any,
 	error?: string
 }
 
